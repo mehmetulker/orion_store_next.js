@@ -1,0 +1,208 @@
+/* Typography Presets */
+@layer utilities {
+  /* Display */
+  .text-display-1 {
+    font-size: 4rem; /* 64px */
+    line-height: 72px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-display-2 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-display-3 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-display-4 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-display-5 {
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  /* Heading */
+
+  .text-heading-1 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-heading-2 {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-heading-3 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-heading-4 {
+    font-size: 16px;
+    line-height: 56px;
+    letter-spacing: 0.125rem;
+    font-weight: 600;
+  }
+
+  .text-heading-5 {
+    font-size: 14px;
+    line-height: 48px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  /* Label */
+  .text-label-1 {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-label-2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-label-3 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-label-4 {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .text-label-5 {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  /* Body */
+  .body-xl-400 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .body-xl-500 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+  .body-xl-600 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+
+  .body-large-400 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .body-large-500 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .body-large-600 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .body-medium-400 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .body-medium-500 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .body-medium-600 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .body-small-400 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .body-small-500 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .body-small-600 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  .body-tiny-400 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+  .body-tiny-500 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .body-tiny-600 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+  }
+
+  .body-xs-400 {
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 400;
+  }
+  .body-xs-500 {
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 500;
+  }
+  .body-xs-600 {
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+}

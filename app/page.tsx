@@ -1,65 +1,58 @@
-import Image from "next/image";
-
+"use client";
+import { Smiley } from "@phosphor-icons/react";
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="bg-primary-100 xs:bg-primary-300 tiny:bg-secondary-100 sm:bg-secondary-200 md:bg-secondary-300 lg:bg-secondary-400 xl:bg-secondary-500 2xl:bg-secondary-600 3xl:bg-secondary-700 4xl:bg-secondary-800 min-h-screen flex flex-col items-center justify-center font-sans dark:bg-black gap-4 p-4">
+      <div className="text-display-1">Display1</div>
+      <div className="text-display-2">Display2</div>
+      <div className="text-display-3">Display3</div>
+      <div className="text-display-4">Display4</div>
+      <div className="text-display-5">Display5</div>
+
+      <div className="text-heading-1">Heading1</div>
+      <div className="text-heading-2">Heading2</div>
+      <div className="text-heading-3">Heading3</div>
+      <div className="text-heading-4">Heading4</div>
+      <div className="text-heading-5">Heading5</div>
+      <div className="text-heading-6">Heading6</div>
+
+      <div className="text-label-1">Label1</div>
+      <div className="text-label-2">Label2</div>
+      <div className="text-label-3">Label3</div>
+      <div className="text-label-4">Label4</div>
+      <div className="text-label-5">Label5</div>
+
+      <div className="w-full rounded-lg border p-4">
+        <div>
+          <div className="text-label-2 mb-2">Body Examples</div>
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="body-xl-400">Body XL 400</div>
+            <div className="body-xl-500">Body XL 500</div>
+            <div className="body-xl-600">Body XL 600</div>
+
+            <div className="body-large-400">Body Large 400</div>
+            <div className="body-large-500">Body Large 500</div>
+            <div className="body-large-600">Body Large 600</div>
+
+            <div className="body-medium-400">Body Medium 400</div>
+            <div className="body-medium-500">Body Medium 500</div>
+            <div className="body-medium-600">Body Medium 600</div>
+
+            <div className="body-small-400">Body Small 400</div>
+            <div className="body-small-500">Body Small 500</div>
+            <div className="body-small-600">Body Small 600</div>
+
+            <div className="body-tiny-400">Body Tiny 400</div>
+            <div className="body-tiny-500">Body Tiny 500</div>
+            <div className="body-tiny-600">Body Tiny 600</div>
+
+            <div className="body-xs-400">Body XS 400</div>
+            <div className="body-xs-500">Body XS 500</div>
+            <div className="body-xs-600">Body XS 600</div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+        <Smiley></Smiley>
+      </div>
     </div>
   );
 }

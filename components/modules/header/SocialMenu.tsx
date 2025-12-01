@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function SocialMenu() {
   return (
-    <div className="h-[52px] flex items-center justify-between">
+    <div className="container h-[52px] flex items-center justify-between">
       <p className="body-small-400 text-white">
         Welcome to Orion online eCommerce store
       </p>
